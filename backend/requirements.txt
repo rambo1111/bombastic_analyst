@@ -1,0 +1,7 @@
+numpy
+pandas
+langchain
+langchain-google-genai
+deepagents
+seaborn
+flask
