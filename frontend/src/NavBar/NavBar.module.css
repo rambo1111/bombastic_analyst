@@ -1,0 +1,32 @@
+.nav_bar{
+    display: flex;
+}
+
+.tab_btn{
+    position: relative;
+    padding: 8px 10px;
+    border-style: none;
+    color: black;
+    background-color: rgb(210, 210, 210);
+}
+
+.tab_btn:not(:first-child)::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.active{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.separator{
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
